@@ -395,7 +395,7 @@
             "NOT_FOUND": "```I couldn't find a city with this name.```",
             "YTV_DESC": "Download youtube video.",
             "YTV_NEED_REPLY": "*Reply to a youtube url.*",
-            "DOWNLOADING": "```Downloading video...```",
+            "DOWNLOADING": "```جاري تحميل الفيديو...```",
             "SIZE": "Video size is {}, Can't upload video.*",
             "GOOGLE_DESC": "Google reverse Image Search.",
             "INEED_REPLY": "*Reply to a image!*",
