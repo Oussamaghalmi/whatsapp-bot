@@ -158,7 +158,7 @@ Asena.addCommand(
   async (message, match) => {
     match = !message.reply_message ? match : message.reply_message.text
     let url = `https://shot.screenshotapi.net/screenshot?&url=${match}
-	&width=1388&height=720&output=image&file_type=png&block_ads=true&no_cookie_banners=true&dark_mode=true&wait_for_event=networkidle`
+	&full_page=true&output=image&file_type=png&block_ads=true&no_cookie_banners=true&dark_mode=true&wait_for_event=networkidle`
     let { buffer } = await getBuffer(url)
     await message.sendMessage(
       buffer,
